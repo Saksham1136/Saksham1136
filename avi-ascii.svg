@@ -1,0 +1,1827 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1100.0"
+    height="651.0"
+    viewBox="0 0 1100.0 651.0">
+
+    <rect
+        width="100%"
+        height="100%"
+        fill="white"
+    />
+
+    <style>
+
+        .ascii {
+            font-family:
+                "Courier New",
+                "Liberation Mono",
+                monospace;
+
+            font-size: 7px;
+            fill: #30363d;
+            font-weight: 400;
+            letter-spacing: 0;
+
+            /* Keep the final portrait visible. */
+            opacity: 1;
+        }
+
+        /*
+         * The rows start visible, then a clipping
+         * rectangle reveals each row from left
+         * to right.
+         *
+         * This means the final SVG remains visible
+         * even after the animation finishes.
+         */
+
+        .reveal {
+            animation:
+                wipe 0.55s
+                cubic-bezier(.2,.8,.2,1)
+                forwards;
+        }
+
+        @keyframes wipe {
+
+            from {
+                width: 0;
+            }
+
+            to {
+                width: 1100.0px;
+            }
+
+        }
+
+    </style>
+
+    <clipPath id="rowClip0">
+        <rect
+            class="reveal"
+            x="0"
+            y="0.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:0.000s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="7.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip0)"
+    >                                                                                                                                                                                                        </text>
+
+    <clipPath id="rowClip1">
+        <rect
+            class="reveal"
+            x="0"
+            y="7.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:0.025s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="14.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip1)"
+    >                                                                                                                                                                                                        </text>
+
+    <clipPath id="rowClip2">
+        <rect
+            class="reveal"
+            x="0"
+            y="14.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:0.050s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="21.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip2)"
+    >                                                                                                                                                                                                        </text>
+
+    <clipPath id="rowClip3">
+        <rect
+            class="reveal"
+            x="0"
+            y="21.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:0.075s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="28.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip3)"
+    >                                                                                                                                                                                                        </text>
+
+    <clipPath id="rowClip4">
+        <rect
+            class="reveal"
+            x="0"
+            y="28.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:0.100s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="35.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip4)"
+    >                                                                                           .                                                                                                            </text>
+
+    <clipPath id="rowClip5">
+        <rect
+            class="reveal"
+            x="0"
+            y="35.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:0.125s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="42.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip5)"
+    >                                                                                      ..:..---::::::..                                                                                                  </text>
+
+    <clipPath id="rowClip6">
+        <rect
+            class="reveal"
+            x="0"
+            y="42.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:0.150s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="49.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip6)"
+    >                                                                                .:.::--:..-==+=----.::.::...                                                                                            </text>
+
+    <clipPath id="rowClip7">
+        <rect
+            class="reveal"
+            x="0"
+            y="49.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:0.175s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="56.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip7)"
+    >                                                                              ..:---=+=::=+-=====-=-:.-===---...                                                                                        </text>
+
+    <clipPath id="rowClip8">
+        <rect
+            class="reveal"
+            x="0"
+            y="56.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:0.200s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="63.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip8)"
+    >                                                                          ...::..++===-=+*+=-=+=++-=+++:--.:+: :-:...                                                                                   </text>
+
+    <clipPath id="rowClip9">
+        <rect
+            class="reveal"
+            x="0"
+            y="63.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:0.225s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="70.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip9)"
+    >                                                                       ...--=:.:++-======-==++#=-+++**=-=::-=----:::.::.                                                                                </text>
+
+    <clipPath id="rowClip10">
+        <rect
+            class="reveal"
+            x="0"
+            y="70.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:0.250s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="77.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip10)"
+    >                                                                   .::.::::=--=**====++++==+**+==****=====+.=-:::.-- :+-::.                                                                             </text>
+
+    <clipPath id="rowClip11">
+        <rect
+            class="reveal"
+            x="0"
+            y="77.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:0.275s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="84.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip11)"
+    >                                                               ..::-=------=+*#*+===++++++++====++++==++==+:::. :=-: :.---..                                                                            </text>
+
+    <clipPath id="rowClip12">
+        <rect
+            class="reveal"
+            x="0"
+            y="84.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:0.300s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="91.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip12)"
+    >                                                            ..::::-++==---=+**+=--==-:-++++++++-:-*=--=+-==+=.:..+.::.::.+::-=--:..                                                                     </text>
+
+    <clipPath id="rowClip13">
+        <rect
+            class="reveal"
+            x="0"
+            y="91.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:0.325s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="98.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip13)"
+    >                                                         :-::--:--+**+==++**#**+++*+=-:==+++++++***===+=-=+++--::+++=.:=-+++++=-.:-.                                                                    </text>
+
+    <clipPath id="rowClip14">
+        <rect
+            class="reveal"
+            x="0"
+            y="98.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:0.350s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="105.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip14)"
+    >                                                        :==------=***==+####*####****=:::=+==****+=++*+--==+++=::**==-=+++*+++*=:.::                                                                    </text>
+
+    <clipPath id="rowClip15">
+        <rect
+            class="reveal"
+            x="0"
+            y="105.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:0.375s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="112.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip15)"
+    >                                                       .-+==----==+****###########****+-----+*#+-:=+*+=-==+++*++.:++==--+****++-=:.--:                                                                  </text>
+
+    <clipPath id="rowClip16">
+        <rect
+            class="reveal"
+            x="0"
+            y="112.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:0.400s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="119.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip16)"
+    >                                                      :=+*+===+++***##############*##****+*###*=-+**=-:-==++++++=+==+=:.=****+++++=+-::                                                                 </text>
+
+    <clipPath id="rowClip17">
+        <rect
+            class="reveal"
+            x="0"
+            y="119.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:0.425s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="126.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip17)"
+    >                                                     -****+==+*#######################****##**+**#*+=---+++++++++++++++-.*****=+***=--:                                                                 </text>
+
+    <clipPath id="rowClip18">
+        <rect
+            class="reveal"
+            x="0"
+            y="126.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:0.450s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="133.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip18)"
+    >                                                    .+*****+++##############################**###***+=+***+===++++*+==+=::*****+++*+++:.                                                                </text>
+
+    <clipPath id="rowClip19">
+        <rect
+            class="reveal"
+            x="0"
+            y="133.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:0.475s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="140.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip19)"
+    >                                                    -+***++==+*##############**###################**#********+*********+++***********=::.                                                               </text>
+
+    <clipPath id="rowClip20">
+        <rect
+            class="reveal"
+            x="0"
+            y="140.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:0.500s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="147.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip20)"
+    >                                                   .+#**##***+*###########***+==+*#*##****###########################*********+++**++-:::.                                                              </text>
+
+    <clipPath id="rowClip21">
+        <rect
+            class="reveal"
+            x="0"
+            y="147.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:0.525s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="154.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip21)"
+    >                                                   .+##****+++**#####**###+==++++**#*##*=++*#######*####################******+++++++=----:                                                             </text>
+
+    <clipPath id="rowClip22">
+        <rect
+            class="reveal"
+            x="0"
+            y="154.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:0.550s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="161.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip22)"
+    >                                                    =##*++++++*******++****+===++*****+=----=+*####************###########*++++++=+++====-.                                                             </text>
+
+    <clipPath id="rowClip23">
+        <rect
+            class="reveal"
+            x="0"
+            y="161.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:0.575s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="168.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip23)"
+    >                                                    -*#*******+**+++==+=++=-:::::::::.........:--====---------==+***########*#*****+=++==.                                                              </text>
+
+    <clipPath id="rowClip24">
+        <rect
+            class="reveal"
+            x="0"
+            y="168.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:0.600s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="175.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip24)"
+    >                                                    .=*######**********+=-:.........             ..::::........:::-=+*######******+++*++-.                                                              </text>
+
+    <clipPath id="rowClip25">
+        <rect
+            class="reveal"
+            x="0"
+            y="175.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:0.625s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="182.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip25)"
+    >                                                     -*###############*=:...........                       ........::-+*######****+=----.                                                               </text>
+
+    <clipPath id="rowClip26">
+        <rect
+            class="reveal"
+            x="0"
+            y="182.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:0.650s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="189.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip26)"
+    >                                                     :*###########*###+-::.......                            .......:::-=*####*****+=...                                                                </text>
+
+    <clipPath id="rowClip27">
+        <rect
+            class="reveal"
+            x="0"
+            y="189.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:0.675s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="196.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip27)"
+    >                                                      =##############*=-::.......                         .......::::....:-=++***##**-:.                                                                </text>
+
+    <clipPath id="rowClip28">
+        <rect
+            class="reveal"
+            x="0"
+            y="196.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:0.700s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="203.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip28)"
+    >                                                      :*###########*=:::...::--::::::::::::.       ...::----====+++++===-:..::-*****+-.                                                                 </text>
+
+    <clipPath id="rowClip29">
+        <rect
+            class="reveal"
+            x="0"
+            y="203.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:0.725s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="210.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip29)"
+    >                                                       :*#########=.....-+***+++=+******+*#*+-:..:::-********++==--:--=+++--::-###**+-                                                                  </text>
+
+    <clipPath id="rowClip30">
+        <rect
+            class="reveal"
+            x="0"
+            y="210.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:0.750s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="217.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip30)"
+    >                                                        .=########-..=+*#*=-:::---==+*******%%#******+++++++===----::::::+**-.+###*+-.                                                                  </text>
+
+    <clipPath id="rowClip31">
+        <rect
+            class="reveal"
+            x="0"
+            y="217.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:0.775s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="224.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip31)"
+    >                                                          -#######+..++#+::--=++*+++++****+++##****#*++*****#********++=-**-::.=##+-:                                                                   </text>
+
+    <clipPath id="rowClip32">
+        <rect
+            class="reveal"
+            x="0"
+            y="224.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:0.800s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="231.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip32)"
+    >                                                           =####%#==+=-**-=**####*#*##+***++=##=--=*#+++**+=*+++++++++++===::.  :=-:.                                                                   </text>
+
+    <clipPath id="rowClip33">
+        <rect
+            class="reveal"
+            x="0"
+            y="231.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:0.825s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="238.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip33)"
+    >                                                           :=+##%+.:-==+*-+++======-====--::=%=.  .:*+=-:::-------::::::-+--:   .---:                                                                   </text>
+
+    <clipPath id="rowClip34">
+        <rect
+            class="reveal"
+            x="0"
+            y="238.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:0.850s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="245.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip34)"
+    >                                                             .=*#=::::-=*---:..::::---::::::#+. ....-%-::::::::::::.....--       --=-                                                                   </text>
+
+    <clipPath id="rowClip35">
+        <rect
+            class="reveal"
+            x="0"
+            y="245.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:0.875s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="252.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip35)"
+    >                                                            :=++#=::::::-*::..............:#+..   ...=#-...............:+:.      :==:                                                                   </text>
+
+    <clipPath id="rowClip36">
+        <rect
+            class="reveal"
+            x="0"
+            y="252.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:0.900s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="259.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip36)"
+    >                                                            -===*=--:....-+:            .-+=..      ..-+=-:........:::-=:--.     .-=.                                                                   </text>
+
+    <clipPath id="rowClip37">
+        <rect
+            class="reveal"
+            x="0"
+            y="259.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:0.925s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="266.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip37)"
+    >                                                            ::::+=:::.....-+=--:::::::-=-.  ...   ....  .=+===========----::..   .-:                                                                    </text>
+
+    <clipPath id="rowClip38">
+        <rect
+            class="reveal"
+            x="0"
+            y="266.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:0.950s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="273.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip38)"
+    >                                                            :-::++::........:::.......:-..=+++-::::-=+=-..:.       ....::::..... .=.                                                                    </text>
+
+    <clipPath id="rowClip39">
+        <rect
+            class="reveal"
+            x="0"
+            y="273.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:0.975s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="280.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip39)"
+    >                                                             -::=+-:........           .==+====++++****#+++. .    ....::::::.... .-                                                                     </text>
+
+    <clipPath id="rowClip40">
+        <rect
+            class="reveal"
+            x="0"
+            y="280.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:1.000s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="287.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip40)"
+    >                                                             .-.++--:...:......         .::... .---::-::::.    .....::::::::::.. .-                                                                     </text>
+
+    <clipPath id="rowClip41">
+        <rect
+            class="reveal"
+            x="0"
+            y="287.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:1.025s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="294.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip41)"
+    >                                                              ::-*=-::..:........         .:=---:.::===:.      ..:..::::::::::.. .-                                                                     </text>
+
+    <clipPath id="rowClip42">
+        <rect
+            class="reveal"
+            x="0"
+            y="294.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:1.050s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="301.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip42)"
+    >                                                              .--*=--:::.:.........     .:==++++-:=-=+*+-:.......::::::-----::.. :-                                                                     </text>
+
+    <clipPath id="rowClip43">
+        <rect
+            class="reveal"
+            x="0"
+            y="301.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:1.075s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="308.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip43)"
+    >                                                               :-#+=-::::...........:--==-==----:..:==++=====---:::::--------:..:=-                                                                     </text>
+
+    <clipPath id="rowClip44">
+        <rect
+            class="reveal"
+            x="0"
+            y="308.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:1.100s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="315.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip44)"
+    >                                                               .-**==---:........::=+*##++++++++++++==+++++*#**+=-::::----------==.                                                                     </text>
+
+    <clipPath id="rowClip45">
+        <rect
+            class="reveal"
+            x="0"
+            y="315.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:1.125s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="322.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip45)"
+    >                                                                :*#+++=--::......-=+###+++==--:.::..::--====+++**=-::----========-                                                                      </text>
+
+    <clipPath id="rowClip46">
+        <rect
+            class="reveal"
+            x="0"
+            y="322.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:1.150s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="329.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip46)"
+    >                                                                .*#+++++=---::..:-=+*=:.....    ..............:=*=-----===++++++=.                                                                      </text>
+
+    <clipPath id="rowClip47">
+        <rect
+            class="reveal"
+            x="0"
+            y="329.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:1.175s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="336.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip47)"
+    >                                                                 -*****++=+==-::..-=-  ..:......:::::..........:=----==+++++++++-                                                                       </text>
+
+    <clipPath id="rowClip48">
+        <rect
+            class="reveal"
+            x="0"
+            y="336.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:1.200s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="343.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip48)"
+    >                                                                  -**#***+*+===-::==:   ....:::--===--:::::...:-==--==+**+*++++-.                                                                       </text>
+
+    <clipPath id="rowClip49">
+        <rect
+            class="reveal"
+            x="0"
+            y="343.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:1.225s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="350.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip49)"
+    >                                                                   :+###*#*+++*+==+==:..   ........::.......::==+*+++*******++-.                                                                        </text>
+
+    <clipPath id="rowClip50">
+        <rect
+            class="reveal"
+            x="0"
+            y="350.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:1.250s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="357.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip50)"
+    >                                                                    .=#####**##*****++=::.     ..  ...  ...:-=+**#***##*****+-.                                                                         </text>
+
+    <clipPath id="rowClip51">
+        <rect
+            class="reveal"
+            x="0"
+            y="357.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:1.275s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="364.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip51)"
+    >                                                                      :+############+++=-=:::..::..:.:::::--=++#########*+*+=.                                                                          </text>
+
+    <clipPath id="rowClip52">
+        <rect
+            class="reveal"
+            x="0"
+            y="364.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:1.300s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="371.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip52)"
+    >                                                                       .-*###########***++===-====-=--===+++++*####******++--:                                                                          </text>
+
+    <clipPath id="rowClip53">
+        <rect
+            class="reveal"
+            x="0"
+            y="371.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:1.325s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="378.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip53)"
+    >                                                                        .=*#############***#++***+++*+******#########***+=: --.                                                                         </text>
+
+    <clipPath id="rowClip54">
+        <rect
+            class="reveal"
+            x="0"
+            y="378.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:1.350s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="385.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip54)"
+    >                                                                        -==+**#################################**#*#**+=-:.:=  ..                                                                       </text>
+
+    <clipPath id="rowClip55">
+        <rect
+            class="reveal"
+            x="0"
+            y="385.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:1.375s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="392.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip55)"
+    >                                                                        -==++***##############%%%####%%#######*####*+==---==     .                                                                      </text>
+
+    <clipPath id="rowClip56">
+        <rect
+            class="reveal"
+            x="0"
+            y="392.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:1.400s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="399.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip56)"
+    >                                                                       .-+==++*****###############*############*+++=====+*=       ..                                                                    </text>
+
+    <clipPath id="rowClip57">
+        <rect
+            class="reveal"
+            x="0"
+            y="399.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:1.425s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="406.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip57)"
+    >                                                                     ....*====++*******################%###***++=++++++**-          .....                                                               </text>
+
+    <clipPath id="rowClip58">
+        <rect
+            class="reveal"
+            x="0"
+            y="406.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:1.450s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="413.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip58)"
+    >                                                                   ...   -*=====++******++******######**++++++++++++++**:                .....                                                          </text>
+
+    <clipPath id="rowClip59">
+        <rect
+            class="reveal"
+            x="0"
+            y="413.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:1.475s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="420.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip59)"
+    >                                                               ....       ++=---===++++***+*++++++++++++++++++++++****=.             .        .......                                                   </text>
+
+    <clipPath id="rowClip60">
+        <rect
+            class="reveal"
+            x="0"
+            y="420.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:1.500s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="427.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip60)"
+    >                                                          ......    .      ==------====++++***++++++++++**+++++++++*+:               .    ..        .....                                               </text>
+
+    <clipPath id="rowClip61">
+        <rect
+            class="reveal"
+            x="0"
+            y="427.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:1.525s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="434.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip61)"
+    >                                                     .....         .        -=---::::--===++++++++++++++++++++++++*=.                .                   .....                                          </text>
+
+    <clipPath id="rowClip62">
+        <rect
+            class="reveal"
+            x="0"
+            y="434.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:1.550s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="441.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip62)"
+    >                                                  ....        .   ..         :=---::::::---==+++++++++++++++++++++-                                          .....                                      </text>
+
+    <clipPath id="rowClip63">
+        <rect
+            class="reveal"
+            x="0"
+            y="441.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:1.575s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="448.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip63)"
+    >                                               .:..               ...         .-----::::::----===+++++++++++++++-. ...               .     .  ..    .             .....                                 </text>
+
+    <clipPath id="rowClip64">
+        <rect
+            class="reveal"
+            x="0"
+            y="448.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:1.600s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="455.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip64)"
+    >                                           .....   .       .     ..  .   .:-:.  ----::::::::--:--===========+==: .:::---:.           .    ..   .    .  .               .....                            </text>
+
+    <clipPath id="rowClip65">
+        <rect
+            class="reveal"
+            x="0"
+            y="455.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:1.625s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="462.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip65)"
+    >                                     ........      .      .      ...   .-====-:. :--:::::::::::::--------==-:. .:::::---==-.        .. .  .   ..    .  .                    .....                       </text>
+
+    <clipPath id="rowClip66">
+        <rect
+            class="reveal"
+            x="0"
+            y="462.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:1.650s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="469.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip66)"
+    >                                 .....                   .       ... .-=-------:. .:-:::::::::::--::----::. ...::::------===-.      :..   .   .. .  .  .  .         .           ....                    </text>
+
+    <clipPath id="rowClip67">
+        <rect
+            class="reveal"
+            x="0"
+            y="469.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:1.675s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="476.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip67)"
+    >                              .....               .    .         .  :--:--------::. .::::::::::::-:--::......::::------====-==:    .-..   .   .  .  .     .          .              ...                 </text>
+
+    <clipPath id="rowClip68">
+        <rect
+            class="reveal"
+            x="0"
+            y="476.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:1.700s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="483.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip68)"
+    >                           .:..    .              . .            ..:---::--::-::::::..:::::::::::--:........::::--::::::::---===.  -:..  ..   .  .   .    .. .     .                  ....              </text>
+
+    <clipPath id="rowClip69">
+        <rect
+            class="reveal"
+            x="0"
+            y="483.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:1.725s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="490.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip69)"
+    >                        .::.       ..             ...            .:-----::.  ..  ..::.....::::::::.......::::::--:::... .  ..::-=::-..   ..   .  .    .   .. ..  . .   ...  .            .:.            </text>
+
+    <clipPath id="rowClip70">
+        <rect
+            class="reveal"
+            x="0"
+            y="490.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:1.750s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="497.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip70)"
+    >                      .::.     .   ..             . ...          .---:::...       ...:::::..::::.........:::--:::....  ..   ..  .:-. .   .   .. .  .      .  ..  .     ..  ..   .          ..:.         </text>
+
+    <clipPath id="rowClip71">
+        <rect
+            class="reveal"
+            x="0"
+            y="497.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:1.775s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="504.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip71)"
+    >                    .::.           .              . ..        .   .....   .          ....::::::....... .:::::..... ..  .   ... ..    .  ..   .  . . ..   ..  .. ..    ..  .. ....  ..    .  ....:.      </text>
+
+    <clipPath id="rowClip72">
+        <rect
+            class="reveal"
+            x="0"
+            y="504.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:1.800s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="511.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip72)"
+    >                  .::.   .         .              ..          .                         .   .. ... ..  ..  .       .   .   ..  ..   ..  ..   . .. . .   ..  ..   .   ... ... ...   .     .   :. .::.    </text>
+
+    <clipPath id="rowClip73">
+        <rect
+            class="reveal"
+            x="0"
+            y="511.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:1.825s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="518.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip73)"
+    >                 ::.    .    .                    .   .       .   .                      .   . .. ..   .           .   .   ..  ..   .   .   .. .  ..   ...  ...  .   ..  ....... ...   ..    .:.. .::   </text>
+
+    <clipPath id="rowClip74">
+        <rect
+            class="reveal"
+            x="0"
+            y="518.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:1.850s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="525.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip74)"
+    >                :.     .     .                                .                               ..  .                   ..   ..  .    .   .   .  .  ..  .. .  ..  ..  . . .. ..:.  ..    .: ..  .:... .-. </text>
+
+    <clipPath id="rowClip75">
+        <rect
+            class="reveal"
+            x="0"
+            y="525.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:1.875s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="532.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip75)"
+    >               :.     ..    ..                        .       .   .   .       .       .       .       .   .       .   .   ..  ..   ..  .    . ..  :.  ..  . .   ..  .  ..  .:.  ...  . ::  ..  ::.:: .-.</text>
+
+    <clipPath id="rowClip76">
+        <rect
+            class="reveal"
+            x="0"
+            y="532.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:1.900s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="539.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip76)"
+    >              :.      .     .   .             .               .   .   .       .       .      .  .     .      .    .  ..   ..  ..   .   .    . .. .:  ..   ..    ..  .  ..  .:. ...  ...-.. ...  ::.:...-</text>
+
+    <clipPath id="rowClip77">
+        <rect
+            class="reveal"
+            x="0"
+            y="539.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:1.925s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="546.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip77)"
+    >             ::       .    .   .                          .   .   .           .       .      .  ..       .   .   ..  ..   .   ..  ..  ..   .  ..  ....   .. .   ..  .   .  ..  ..   . .-.......  ::... .</text>
+
+    <clipPath id="rowClip78">
+        <rect
+            class="reveal"
+            x="0"
+            y="546.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:1.950s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="553.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip78)"
+    >            .:             .   .          .       .   .   .               .       .                  .   .   .   ..  .    .  ... ...  ..   .   .   ...   ..  .  .  ..   . .......  .. --. ..:.:.  :.:.  </text>
+
+    <clipPath id="rowClip79">
+        <rect
+            class="reveal"
+            x="0"
+            y="553.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:1.975s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="560.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip79)"
+    >           .-             ..  ..                  .  .   .   .            .          .               .   .   .   .   .    .   .   ..  ....... ...    .  ..  .....  ..   ... ....  ..  --:  ::.::  .:.:  </text>
+
+    <clipPath id="rowClip80">
+        <rect
+            class="reveal"
+            x="0"
+            y="560.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:2.000s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="567.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip80)"
+    >           -.             .  .               ..      .   .   .   .   .    .  .       .               .  ..  ..   .   .   ..  ..   ..  ... ..  .... .   ..   .  ..  .     .. ..   .....=:.. :::::.  :::. </text>
+
+    <clipPath id="rowClip81">
+        <rect
+            class="reveal"
+            x="0"
+            y="567.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:2.025s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="574.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip81)"
+    >          ::       .         .        .   .  ... .   .       .   .           .       .              ..  ..  .    .   .   ..  ..   ..  ..  ..  ...  ..  ..  ..  ..  .   .  . ..   ... :=... :.:-.:. .:::.</text>
+
+    <clipPath id="rowClip82">
+        <rect
+            class="reveal"
+            x="0"
+            y="574.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:2.050s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="581.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip82)"
+    >         .-.  .             .             ..  .  ..  .   .   .   .   .   .  .    .   .              ..  ..  .    .  ..   ..  ..   ..  ..  ..  ...  ..  .  ..   .. ..  ..  ..::. ..:. --:.. -.:-. : :::..</text>
+
+    <clipPath id="rowClip83">
+        <rect
+            class="reveal"
+            x="0"
+            y="581.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:2.075s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="588.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip83)"
+    >        .-.            .    .         ...... .   .   .   .  ..   .  .    .  .    .  ..              .   ..  .   ..  ..   ..  ..  ..   .   ..  ... ... ..       .....  ..  .:..  . :. =-:. .-.:-. ...:::.</text>
+
+    <clipPath id="rowClip84">
+        <rect
+            class="reveal"
+            x="0"
+            y="588.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:2.100s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="595.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip84)"
+    >       .-..    .        .   ..     ......  ...       .  .   .   .   .   .   .    .  .               .   .   .   ..  ..   .   ..  ..  ..   ..  ... ..  ...     .. .:.....  .:.  .. - .=..: .-::-:  ..:::.</text>
+
+    <clipPath id="rowClip85">
+        <rect
+            class="reveal"
+            x="0"
+            y="595.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:2.125s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="602.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip85)"
+    >      .-...   ..  .        ...  ...:::.    . .    .  .  .   .   .       .   .   ..  ..              .   .   .   ..  .    .   .   ..  ..   ..  ..  ..  ..   .. . .....::......  . .: -=..: .::-::  ..::::</text>
+
+    <clipPath id="rowClip86">
+        <rect
+            class="reveal"
+            x="0"
+            y="602.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:2.150s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="609.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip86)"
+    >     .=. ..  ...  ..    .  ......:::...  ..  .      .   .   .   .  ..   .   .   ..  ..              .  ..  ..   .   .   ..   .   ..  ..  ...  ..  ..  ..   ..  .....:::.:: .. ....:.+::.. :---:....:::.:</text>
+
+    <clipPath id="rowClip87">
+        <rect
+            class="reveal"
+            x="0"
+            y="609.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:2.175s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="616.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip87)"
+    >     =: .:.       ..    .  :. ::.:..  . ...  .    . .   .   .   .  ..   .   .   .   .  .           ..  ..  ..   .                    .    .   .    .  ..  ... ...:..::.:-:..:..  :.-- .:. :-:-:  ...::::</text>
+
+    <clipPath id="rowClip88">
+        <rect
+            class="reveal"
+            x="0"
+            y="616.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:2.200s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="623.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip88)"
+    >    =- ..:.     . .. .  .  ....::. .  ..  .  ..  ....   .      .   .    .  ..   ..  ..             .   ..  ..   .                .   .    .   .   ..  ..  .:  ...-.::..--:::-.. .-:=. .-. --:-.   .:-::.</text>
+
+    <clipPath id="rowClip89">
+        <rect
+            class="reveal"
+            x="0"
+            y="623.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:2.225s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="630.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip89)"
+    >   :=  ..:.    ..  . . .. .:...... .. .   .  ..  . .    .  .   .   .   ..  ..   .   ..             .   .   ..      .    .   .    .   .    .   .   .   .   .:  :. :::-:-:.:-:-. :.:=-..:: .--::.   .:-.::</text>
+
+    <clipPath id="rowClip90">
+        <rect
+            class="reveal"
+            x="0"
+            y="630.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:2.250s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="637.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip90)"
+    >  :-. .:..:   .  . .. ... .:.:.. .... ..  .  .. .  ..  ..  .   .   .   ..  .    .   .              .   .   ..      .    .   .    .   .    .   .   .   .   .. .:...=::=:::-::=.::.=- .::. ::-:..   .--..:</text>
+
+    <clipPath id="rowClip91">
+        <rect
+            class="reveal"
+            x="0"
+            y="637.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:2.275s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="644.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip91)"
+    > ::.  .:...   .  .  . ...:.:......... ..  .  .  .  ..  .   .   .   .   ..  .    .   . .       ..   . ...   .            .        .   .    .  ..   .  .. ...  ::...:-::-:--:=::: :+. .::  -:::...  .--:.:</text>
+
+    <clipPath id="rowClip92">
+        <rect
+            class="reveal"
+            x="0"
+            y="644.0"
+            width="1100.0"
+            height="9.0"
+            style="animation-delay:2.300s"
+        />
+    </clipPath>
+
+    <text
+        class="ascii"
+        x="550.0"
+        y="651.0"
+        text-anchor="middle"
+        clip-path="url(#rowClip92)"
+    >-: .  ::.... .   .. . .. .-::...... . ..  . ..  .  .   .  ..   .       .   .   ..   ...       .   ..  ..   .            .   .    .   .   ..  ......  .  ...  -:.::-:-::-:.--.-. --...:: .-:.:.  . .-::..</text>
+
+</svg>

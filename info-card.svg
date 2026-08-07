@@ -1,0 +1,267 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="490"
+    height="370"
+    viewBox="0 0 490 370">
+
+    <rect
+        x="1"
+        y="1"
+        width="488"
+        height="368"
+        rx="12"
+        fill="#0d1117"
+        stroke="#30363d"
+        stroke-width="2"
+    />
+
+    <style>
+
+        .terminal {
+            font-family:
+                "Courier New",
+                "Liberation Mono",
+                monospace;
+        }
+
+        .title {
+            fill: #c9d1d9;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        .key {
+            fill: #39d353;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .value {
+            fill: #c9d1d9;
+            font-size: 14px;
+        }
+
+        .muted {
+            fill: #8b949e;
+            font-size: 12px;
+        }
+
+        .highlight {
+            fill: #58a6ff;
+            font-size: 13px;
+        }
+
+        .line {
+            opacity: 0;
+            animation:
+                appear 0.45s ease-out
+                forwards;
+        }
+
+        @keyframes appear {
+
+            from {
+                opacity: 0;
+                transform: translateX(-10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+
+        }
+
+    </style>
+
+
+    <!-- ================================================== -->
+    <!-- TERMINAL TITLE BAR -->
+    <!-- ================================================== -->
+
+    <circle
+        cx="20"
+        cy="20"
+        r="5"
+        fill="#ff5f56"
+    />
+
+    <circle
+        cx="38"
+        cy="20"
+        r="5"
+        fill="#ffbd2e"
+    />
+
+    <circle
+        cx="56"
+        cy="20"
+        r="5"
+        fill="#27c93f"
+    />
+
+    <text
+        class="terminal title"
+        x="78"
+        y="25"
+    >Saksham1136@github:~</text>
+
+
+    <!-- ================================================== -->
+    <!-- COMMAND -->
+    <!-- Animation delay: 0.15s -->
+    <!-- ================================================== -->
+
+    <text
+        class="terminal muted line"
+        x="25"
+        y="65"
+        style="animation-delay:0.15s"
+    >$ neofetch</text>
+
+
+    <!-- ================================================== -->
+    <!-- USER -->
+    <!-- Animation delay: 0.30s -->
+    <!-- ================================================== -->
+
+    <text
+        class="terminal key line"
+        x="25"
+        y="105"
+        style="animation-delay:0.30s"
+    >user</text>
+
+    <text
+        class="terminal value line"
+        x="145"
+        y="105"
+        style="animation-delay:0.30s"
+    >Saksham1136</text>
+
+
+    <!-- ================================================== -->
+    <!-- ROLE -->
+    <!-- Animation delay: 0.40s -->
+    <!-- ================================================== -->
+
+    <text
+        class="terminal key line"
+        x="25"
+        y="135"
+        style="animation-delay:0.40s"
+    >role</text>
+
+    <text
+        class="terminal value line"
+        x="145"
+        y="135"
+        style="animation-delay:0.40s"
+    >AI/ML &amp; Generative AI Developer</text>
+
+
+    <!-- ================================================== -->
+    <!-- CURRENTLY -->
+    <!-- Animation delay: 0.50s -->
+    <!-- ================================================== -->
+
+    <text
+        class="terminal key line"
+        x="25"
+        y="165"
+        style="animation-delay:0.50s"
+    >now</text>
+
+    <text
+        class="terminal value line"
+        x="145"
+        y="165"
+        style="animation-delay:0.50s"
+    >Building Agentic AI &amp; RAG systems</text>
+
+
+    <!-- ================================================== -->
+    <!-- FOCUS -->
+    <!-- Animation delay: 0.60s -->
+    <!-- ================================================== -->
+
+    <text
+        class="terminal key line"
+        x="25"
+        y="195"
+        style="animation-delay:0.60s"
+    >focus</text>
+
+    <text
+        class="terminal value line"
+        x="145"
+        y="195"
+        style="animation-delay:0.60s"
+    >LangGraph · multimodal RAG · LLM orchestration</text>
+
+
+    <!-- ================================================== -->
+    <!-- STACK -->
+    <!-- Animation delay: 0.70s -->
+    <!-- ================================================== -->
+
+    <text
+        class="terminal key line"
+        x="25"
+        y="225"
+        style="animation-delay:0.70s"
+    >stack</text>
+
+    <text
+        class="terminal value line"
+        x="145"
+        y="225"
+        style="animation-delay:0.70s"
+    >Python · LangGraph · RAG · LLMs</text>
+
+
+    <!-- ================================================== -->
+    <!-- HIGHLIGHTS -->
+    <!-- Animation delays: 0.80s, 0.90s, 1.00s -->
+    <!-- ================================================== -->
+
+
+    <text
+        class="terminal highlight line"
+        x="25"
+        y="265"
+        style="animation-delay:0.80s"
+    >→ Agentic AI &amp; LLM orchestration</text>
+
+    <text
+        class="terminal highlight line"
+        x="25"
+        y="290"
+        style="animation-delay:0.90s"
+    >→ Multimodal RAG systems</text>
+
+    <text
+        class="terminal highlight line"
+        x="25"
+        y="315"
+        style="animation-delay:1.00s"
+    >→ Intelligent data-driven applications</text>
+
+
+    <!-- ================================================== -->
+    <!-- FOOTER -->
+    <!-- ================================================== -->
+
+    <text
+        class="terminal muted"
+        x="25"
+        y="340"
+    >github.com/Saksham1136</text>
+
+    <text
+        class="terminal muted"
+        x="25"
+        y="358"
+    >linkedin.com/in/saksham-kumar-66b410264</text>
+
+</svg>
