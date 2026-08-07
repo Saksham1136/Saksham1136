@@ -1,352 +1,7 @@
-# from pathlib import Path
-
-
-# OUTPUT = Path("info-card.svg")
-
-# # ============================================================
-# # EDIT THESE LINES TO PERSONALIZE YOUR PROFILE
-# # ============================================================
-
-# USERNAME = "Saksham1136"
-# NAME = "Saksham Kumar"
-
-# ROLE = "AI/ML & Generative AI Developer"
-
-# CURRENTLY = "Building Agentic AI & RAG systems"
-
-# FOCUS = "LangGraph · multimodal RAG · LLM orchestration"
-
-# STACK = "LangGraph · RAG · LLMs · Python"
-
-# HIGHLIGHTS = [
-#     "Agentic AI & LLM orchestration",
-#     "Multimodal RAG systems",
-#     "Intelligent data-driven applications",
-# ]
-
-# LINKEDIN = "linkedin.com/in/saksham-kumar-66b410264"
-
-# # ============================================================
-# # SVG SETTINGS
-# # ============================================================
-
-# WIDTH = 490
-# HEIGHT = 370
-
-# BG = "#0d1117"
-# BORDER = "#30363d"
-# TEXT = "#c9d1d9"
-# MUTED = "#8b949e"
-# GREEN = "#39d353"
-# BLUE = "#58a6ff"
-# PURPLE = "#bc8cff"
-
-
-# def escape(text):
-#     return (
-#         str(text)
-#         .replace("&", "&amp;")
-#         .replace("<", "&lt;")
-#         .replace(">", "&gt;")
-#         .replace('"', "&quot;")
-#     )
-
-
-# def main():
-
-#     svg = f'''<svg
-#     xmlns="http://www.w3.org/2000/svg"
-#     width="{WIDTH}"
-#     height="{HEIGHT}"
-#     viewBox="0 0 {WIDTH} {HEIGHT}">
-
-#     <rect
-#         x="1"
-#         y="1"
-#         width="{WIDTH - 2}"
-#         height="{HEIGHT - 2}"
-#         rx="12"
-#         fill="{BG}"
-#         stroke="{BORDER}"
-#         stroke-width="2"
-#     />
-
-#     <style>
-
-#         .terminal {{
-#             font-family:
-#                 "Courier New",
-#                 "Liberation Mono",
-#                 monospace;
-#         }}
-
-#         .title {{
-#             fill: {TEXT};
-#             font-size: 15px;
-#             font-weight: bold;
-#         }}
-
-#         .key {{
-#             fill: {GREEN};
-#             font-size: 14px;
-#             font-weight: bold;
-#         }}
-
-#         .value {{
-#             fill: {TEXT};
-#             font-size: 14px;
-#         }}
-
-#         .muted {{
-#             fill: {MUTED};
-#             font-size: 12px;
-#         }}
-
-#         .highlight {{
-#             fill: {BLUE};
-#             font-size: 13px;
-#         }}
-
-#         .line {{
-#             opacity: 0;
-#             animation:
-#                 appear 0.45s ease-out
-#                 forwards;
-#         }}
-
-#         @keyframes appear {{
-
-#             from {{
-#                 opacity: 0;
-#                 transform:
-#                     translateX(-10px);
-#             }}
-
-#             to {{
-#                 opacity: 1;
-#                 transform:
-#                     translateX(0);
-#             }}
-
-#         }}
-
-#     </style>
-
-#     <!-- Terminal title bar -->
-
-#     <circle
-#         cx="20"
-#         cy="20"
-#         r="5"
-#         fill="#ff5f56"
-#     />
-
-#     <circle
-#         cx="38"
-#         cy="20"
-#         r="5"
-#         fill="#ffbd2e"
-#     />
-
-#     <circle
-#         cx="56"
-#         cy="20"
-#         r="5"
-#         fill="#27c93f"
-#     />
-
-#     <text
-#         class="terminal title"
-#         x="78"
-#         y="25"
-#     >{escape(USERNAME)}@github:~</text>
-
-
-#     <!-- Command -->
-
-#     <text
-#         class="terminal muted line"
-#         x="25"
-#         y="65"
-#         style="animation-delay:0.15s"
-#     >
-#         $ neofetch
-#     </text>
-
-
-#     <!-- USER -->
-
-#     <text
-#         class="terminal key line"
-#         x="25"
-#         y="105"
-#         style="animation-delay:0.30s"
-#     >
-#         user
-#     </text>
-
-#     <text
-#         class="terminal value line"
-#         x="145"
-#         y="105"
-#         style="animation-delay:0.30s"
-#     >
-#         {escape(USERNAME)}
-#     </text>
-
-
-#     <!-- ROLE -->
-
-#     <text
-#         class="terminal key line"
-#         x="25"
-#         y="135"
-#         style="animation-delay:0.40s"
-#     >
-#         role
-#     </text>
-
-#     <text
-#         class="terminal value line"
-#         x="145"
-#         y="135"
-#         style="animation-delay:0.40s"
-#     >
-#         {escape(ROLE)}
-#     </text>
-
-
-#     <!-- CURRENTLY -->
-
-#     <text
-#         class="terminal key line"
-#         x="25"
-#         y="165"
-#         style="animation-delay:0.50s"
-#     >
-#         now
-#     </text>
-
-#     <text
-#         class="terminal value line"
-#         x="145"
-#         y="165"
-#         style="animation-delay:0.50s"
-#     >
-#         {escape(CURRENTLY)}
-#     </text>
-
-
-#         <!-- FOCUS -->
-
-#     <text
-#         class="terminal key line"
-#         x="25"
-#         y="195"
-#         style="animation-delay:0.60s"
-#     >
-#         focus
-#     </text>
-
-#     <text
-#         class="terminal value line"
-#         x="145"
-#         y="195"
-#         style="animation-delay:0.60s"
-#     >
-#         {escape(FOCUS)}
-#     </text>
-
-
-#     <!-- STACK -->
-
-#     <text
-#         class="terminal key line"
-#         x="25"
-#         y="230"
-#         style="animation-delay:0.70s"
-#     >
-#         stack
-#     </text>
-
-#     <text
-#         class="terminal value line"
-#         x="145"
-#         y="225"
-#         style="animation-delay:0.70s"
-#     >
-#         {escape(STACK)}
-#     </text>
-
-
-#     <!-- HIGHLIGHTS -->
-
-# '''
-
-#     y = 265
-
-#     for index, item in enumerate(HIGHLIGHTS):
-
-#         delay = 0.80 + index * 0.10
-
-#         svg += f'''
-#     <text
-#         class="terminal highlight line"
-#         x="25"
-#         y="{y}"
-#         style="animation-delay:{delay:.2f}s"
-#     >
-#         → {escape(item)}
-#     </text>
-# '''
-
-#         y += 25
-
-#     svg += f'''
-
-#         <!-- Footer -->
-
-#     <text
-#         class="terminal muted"
-#         x="25"
-#         y="{HEIGHT - 30}"
-#     >
-#         github.com/Saksham1136
-#     </text>
-
-#     <text
-#         class="terminal muted"
-#         x="25"
-#         y="{HEIGHT - 12}"
-#     >
-#         {escape(LINKEDIN)}
-#     </text>
-
-# </svg>
-# '''
-
-#     OUTPUT.write_text(
-#         svg,
-#         encoding="utf-8"
-#     )
-
-#     print()
-#     print("================================")
-#     print("INFO CARD CREATED")
-#     print("================================")
-#     print(f"Output: {OUTPUT}")
-#     print(f"Size  : {WIDTH} × {HEIGHT}")
-#     print("================================")
-
-
-# if __name__ == "__main__":
-#     main()
-
-
 from pathlib import Path
 
-
 OUTPUT = Path("info-card.svg")
+
 
 # ============================================================
 # YOUR PROFILE
@@ -359,7 +14,8 @@ ROLE = "AI/ML & Generative AI Developer"
 
 CURRENTLY = "Building Agentic AI & RAG systems"
 
-FOCUS = "LangGraph · multimodal RAG · LLM orchestration"
+FOCUS_LINE_1 = "LangGraph · multimodal RAG"
+FOCUS_LINE_2 = "LLM orchestration"
 
 STACK = "Python · LangGraph · RAG · LLMs"
 
@@ -377,7 +33,7 @@ LINKEDIN = "linkedin.com/in/saksham-kumar-66b410264"
 # ============================================================
 
 WIDTH = 490
-HEIGHT = 370
+HEIGHT = 390
 
 BG = "#0d1117"
 BORDER = "#30363d"
@@ -387,6 +43,10 @@ GREEN = "#39d353"
 BLUE = "#58a6ff"
 
 
+# ============================================================
+# ESCAPE XML SPECIAL CHARACTERS
+# ============================================================
+
 def escape(text):
     return (
         str(text)
@@ -394,282 +54,303 @@ def escape(text):
         .replace("<", "&lt;")
         .replace(">", "&gt;")
         .replace('"', "&quot;")
+        .replace("'", "&apos;")
     )
 
+
+# ============================================================
+# MAIN
+# ============================================================
 
 def main():
 
     svg = f'''<svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="{WIDTH}"
-    height="{HEIGHT}"
-    viewBox="0 0 {WIDTH} {HEIGHT}">
+xmlns="http://www.w3.org/2000/svg"
+width="{WIDTH}"
+height="{HEIGHT}"
+viewBox="0 0 {WIDTH} {HEIGHT}">
 
-    <rect
-        x="1"
-        y="1"
-        width="{WIDTH - 2}"
-        height="{HEIGHT - 2}"
-        rx="12"
-        fill="{BG}"
-        stroke="{BORDER}"
-        stroke-width="2"
-    />
+<rect
+    x="1"
+    y="1"
+    width="{WIDTH - 2}"
+    height="{HEIGHT - 2}"
+    rx="12"
+    fill="{BG}"
+    stroke="{BORDER}"
+    stroke-width="2"
+/>
 
-    <style>
+<style>
 
-        .terminal {{
-            font-family:
-                "Courier New",
-                "Liberation Mono",
-                monospace;
-        }}
+    .terminal {{
+        font-family:
+            "Courier New",
+            "Liberation Mono",
+            monospace;
+    }}
 
-        .title {{
-            fill: {TEXT};
-            font-size: 15px;
-            font-weight: bold;
-        }}
+    .title {{
+        fill: {TEXT};
+        font-size: 15px;
+        font-weight: bold;
+    }}
 
-        .key {{
-            fill: {GREEN};
-            font-size: 14px;
-            font-weight: bold;
-        }}
+    .key {{
+        fill: {GREEN};
+        font-size: 14px;
+        font-weight: bold;
+    }}
 
-        .value {{
-            fill: {TEXT};
-            font-size: 14px;
-        }}
+    .value {{
+        fill: {TEXT};
+        font-size: 14px;
+    }}
 
-        .muted {{
-            fill: {MUTED};
-            font-size: 12px;
-        }}
+    .muted {{
+        fill: {MUTED};
+        font-size: 12px;
+    }}
 
-        .highlight {{
-            fill: {BLUE};
-            font-size: 13px;
-        }}
+    .highlight {{
+        fill: {BLUE};
+        font-size: 13px;
+    }}
 
-        .line {{
+    .line {{
+        opacity: 0;
+
+        animation:
+            appear 0.45s ease-out
+            forwards;
+    }}
+
+    @keyframes appear {{
+
+        from {{
             opacity: 0;
-            animation:
-                appear 0.45s ease-out
-                forwards;
+            transform: translateX(-10px);
         }}
 
-        @keyframes appear {{
-
-            from {{
-                opacity: 0;
-                transform: translateX(-10px);
-            }}
-
-            to {{
-                opacity: 1;
-                transform: translateX(0);
-            }}
-
+        to {{
+            opacity: 1;
+            transform: translateX(0);
         }}
 
-    </style>
+    }}
+
+</style>
 
 
-    <!-- ================================================== -->
-    <!-- TERMINAL TITLE BAR -->
-    <!-- ================================================== -->
+<!-- ================================================== -->
+<!-- TERMINAL TITLE BAR -->
+<!-- ================================================== -->
 
-    <circle
-        cx="20"
-        cy="20"
-        r="5"
-        fill="#ff5f56"
-    />
+<circle
+    cx="20"
+    cy="20"
+    r="5"
+    fill="#ff5f56"
+/>
 
-    <circle
-        cx="38"
-        cy="20"
-        r="5"
-        fill="#ffbd2e"
-    />
+<circle
+    cx="38"
+    cy="20"
+    r="5"
+    fill="#ffbd2e"
+/>
 
-    <circle
-        cx="56"
-        cy="20"
-        r="5"
-        fill="#27c93f"
-    />
+<circle
+    cx="56"
+    cy="20"
+    r="5"
+    fill="#27c93f"
+/>
 
-    <text
-        class="terminal title"
-        x="78"
-        y="25"
-    >{escape(USERNAME)}@github:~</text>
-
-
-    <!-- ================================================== -->
-    <!-- COMMAND -->
-    <!-- Animation delay: 0.15s -->
-    <!-- ================================================== -->
-
-    <text
-        class="terminal muted line"
-        x="25"
-        y="65"
-        style="animation-delay:0.15s"
-    >$ neofetch</text>
+<text
+    class="terminal title"
+    x="78"
+    y="25"
+>{escape(USERNAME)}@github:~</text>
 
 
-    <!-- ================================================== -->
-    <!-- USER -->
-    <!-- Animation delay: 0.30s -->
-    <!-- ================================================== -->
+<!-- ================================================== -->
+<!-- COMMAND -->
+<!-- Animation delay: 0.15s -->
+<!-- ================================================== -->
 
-    <text
-        class="terminal key line"
-        x="25"
-        y="105"
-        style="animation-delay:0.30s"
-    >user</text>
-
-    <text
-        class="terminal value line"
-        x="145"
-        y="105"
-        style="animation-delay:0.30s"
-    >{escape(USERNAME)}</text>
+<text
+    class="terminal muted line"
+    x="25"
+    y="65"
+    style="animation-delay:0.15s"
+>$ neofetch</text>
 
 
-    <!-- ================================================== -->
-    <!-- ROLE -->
-    <!-- Animation delay: 0.40s -->
-    <!-- ================================================== -->
+<!-- ================================================== -->
+<!-- USER -->
+<!-- Animation delay: 0.30s -->
+<!-- ================================================== -->
 
-    <text
-        class="terminal key line"
-        x="25"
-        y="135"
-        style="animation-delay:0.40s"
-    >role</text>
+<text
+    class="terminal key line"
+    x="25"
+    y="105"
+    style="animation-delay:0.30s"
+>user</text>
 
-    <text
-        class="terminal value line"
-        x="145"
-        y="135"
-        style="animation-delay:0.40s"
-    >{escape(ROLE)}</text>
-
-
-    <!-- ================================================== -->
-    <!-- CURRENTLY -->
-    <!-- Animation delay: 0.50s -->
-    <!-- ================================================== -->
-
-    <text
-        class="terminal key line"
-        x="25"
-        y="165"
-        style="animation-delay:0.50s"
-    >now</text>
-
-    <text
-        class="terminal value line"
-        x="145"
-        y="165"
-        style="animation-delay:0.50s"
-    >{escape(CURRENTLY)}</text>
+<text
+    class="terminal value line"
+    x="145"
+    y="105"
+    style="animation-delay:0.30s"
+>{escape(USERNAME)}</text>
 
 
-    <!-- ================================================== -->
-    <!-- FOCUS -->
-    <!-- Animation delay: 0.60s -->
-    <!-- ================================================== -->
+<!-- ================================================== -->
+<!-- ROLE -->
+<!-- Animation delay: 0.40s -->
+<!-- ================================================== -->
 
-    <text
-        class="terminal key line"
-        x="25"
-        y="195"
-        style="animation-delay:0.60s"
-    >focus</text>
+<text
+    class="terminal key line"
+    x="25"
+    y="135"
+    style="animation-delay:0.40s"
+>role</text>
 
-    <text
-        class="terminal value line"
-        x="145"
-        y="195"
-        style="animation-delay:0.60s"
-    >{escape(FOCUS)}</text>
-
-
-    <!-- ================================================== -->
-    <!-- STACK -->
-    <!-- Animation delay: 0.70s -->
-    <!-- ================================================== -->
-
-    <text
-        class="terminal key line"
-        x="25"
-        y="225"
-        style="animation-delay:0.70s"
-    >stack</text>
-
-    <text
-        class="terminal value line"
-        x="145"
-        y="225"
-        style="animation-delay:0.70s"
-    >{escape(STACK)}</text>
+<text
+    class="terminal value line"
+    x="145"
+    y="135"
+    style="animation-delay:0.40s"
+>{escape(ROLE)}</text>
 
 
-    <!-- ================================================== -->
-    <!-- HIGHLIGHTS -->
-    <!-- Animation delays: 0.80s, 0.90s, 1.00s -->
-    <!-- ================================================== -->
+<!-- ================================================== -->
+<!-- CURRENTLY -->
+<!-- Animation delay: 0.50s -->
+<!-- ================================================== -->
 
-'''
+<text
+    class="terminal key line"
+    x="25"
+    y="165"
+    style="animation-delay:0.50s"
+>now</text>
 
-    y = 265
+<text
+    class="terminal value line"
+    x="145"
+    y="165"
+    style="animation-delay:0.50s"
+>{escape(CURRENTLY)}</text>
 
-    for index, item in enumerate(HIGHLIGHTS):
 
-        delay = 0.80 + index * 0.10
+<!-- ================================================== -->
+<!-- FOCUS -->
+<!-- Animation delay: 0.60s -->
+<!-- ================================================== -->
 
-        svg += f'''
-    <text
-        class="terminal highlight line"
-        x="25"
-        y="{y}"
-        style="animation-delay:{delay:.2f}s"
-    >→ {escape(item)}</text>
-'''
+<text
+    class="terminal key line"
+    x="25"
+    y="195"
+    style="animation-delay:0.60s"
+>focus</text>
 
-        y += 25
+<text
+    class="terminal value line"
+    x="145"
+    y="195"
+    style="animation-delay:0.60s"
+>{escape(FOCUS_LINE_1)}</text>
 
-    svg += f'''
+<text
+    class="terminal value line"
+    x="145"
+    y="215"
+    style="animation-delay:0.60s"
+>{escape(FOCUS_LINE_2)}</text>
 
-    <!-- ================================================== -->
-    <!-- FOOTER -->
-    <!-- ================================================== -->
 
-    <text
-        class="terminal muted"
-        x="25"
-        y="{HEIGHT - 30}"
-    >github.com/Saksham1136</text>
+<!-- ================================================== -->
+<!-- STACK -->
+<!-- Animation delay: 0.70s -->
+<!-- ================================================== -->
 
-    <text
-        class="terminal muted"
-        x="25"
-        y="{HEIGHT - 12}"
-    >{escape(LINKEDIN)}</text>
+<text
+    class="terminal key line"
+    x="25"
+    y="245"
+    style="animation-delay:0.70s"
+>stack</text>
+
+<text
+    class="terminal value line"
+    x="145"
+    y="245"
+    style="animation-delay:0.70s"
+>{escape(STACK)}</text>
+
+
+<!-- ================================================== -->
+<!-- HIGHLIGHTS -->
+<!-- Animation delays: 0.80s, 0.90s, 1.00s -->
+<!-- ================================================== -->
+
+<text
+    class="terminal highlight line"
+    x="25"
+    y="285"
+    style="animation-delay:0.80s"
+>→ {escape(HIGHLIGHTS[0])}</text>
+
+<text
+    class="terminal highlight line"
+    x="25"
+    y="310"
+    style="animation-delay:0.90s"
+>→ {escape(HIGHLIGHTS[1])}</text>
+
+<text
+    class="terminal highlight line"
+    x="25"
+    y="335"
+    style="animation-delay:1.00s"
+>→ {escape(HIGHLIGHTS[2])}</text>
+
+
+<!-- ================================================== -->
+<!-- FOOTER -->
+<!-- ================================================== -->
+
+<text
+    class="terminal muted"
+    x="25"
+    y="365"
+>github.com/Saksham1136</text>
+
+<text
+    class="terminal muted"
+    x="25"
+    y="382"
+>{escape(LINKEDIN)}</text>
+
 
 </svg>
 '''
+
+
+    # ========================================================
+    # WRITE FILE
+    # ========================================================
 
     OUTPUT.write_text(
         svg,
         encoding="utf-8"
     )
+
 
     print()
     print("================================")
