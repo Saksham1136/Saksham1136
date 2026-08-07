@@ -45,21 +45,13 @@ alt="Saksham Kumar developer information"
 <code>saksham@github ~ $ links</code>
 </h3>
 
-<a href="https://www.linkedin.com/in/saksham-kumar-66b410264/">
-LinkedIn
-</a>
-
+<p>
+<a href="https://www.linkedin.com/in/saksham-kumar-66b410264/">LinkedIn</a>
 &nbsp; · &nbsp;
-
-<a href="https://github.com/Saksham1136?tab=repositories">
-Projects
-</a>
-
+<a href="https://github.com/Saksham1136?tab=repositories">Projects</a>
 &nbsp; · &nbsp;
-
-<a href="https://github.com/Saksham1136">
-GitHub
-</a>
+<a href="https://github.com/Saksham1136">GitHub</a>
+</p>
 
 <br>
 <br>
